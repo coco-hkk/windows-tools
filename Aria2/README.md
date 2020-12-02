@@ -36,7 +36,8 @@
         bt-enable-lpd=true
         enable-peer-exchange=true
 
-* 在最后添加 BT trackers, 配置列表时重新获取 最新 trackers，tracker 中用，隔开
+* 在最后添加 BT trackers, 配置列表时重新获取 最新 trackers，tracker 中用 `,` 隔开
 
         # bt-tracker 更新，解决Aria2 BT下载速度慢没速度的问题
+        # bt-tracker 服务器地址可参考文件（经常更新）：https://github.com/ngosang/trackerslist/blob/master/trackers_best.txt
         bt-tracker=udp://tracker.coppersurfer.tk:6969/announce,udp://tracker.leechers-paradise.org:6969/announc
